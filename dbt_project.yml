@@ -39,7 +39,7 @@ models:
   gmjf:
     +database: ANALYTICS
     stage:
-      +materialized: table
+      +materialized: view
       +enabled: true
     intermediate:      
       +materialized: view
