@@ -1,0 +1,11 @@
+
+sources:
+  - name: raw
+    database: RAW
+    schema: DATAVERSE
+    tables:
+      - name: ACCOUNTS
+        columns:
+        - name: accountid
+        - name: address1_country
+        - name: address1_city    

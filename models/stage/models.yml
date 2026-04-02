@@ -1,0 +1,7 @@
+
+models:
+  - name: stg_dataverse__accounts
+    columns:
+      - name: account_id
+      - name: country
+      - name: city

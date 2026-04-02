@@ -1,0 +1,5 @@
+
+models:
+  - name: accounts
+    columns:
+      - name: account_id
