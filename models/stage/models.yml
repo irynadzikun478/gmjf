@@ -5,3 +5,4 @@ models:
       - name: account_id
       - name: country
       - name: city
+      - name: created_at

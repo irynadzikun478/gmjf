@@ -36,10 +36,11 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
+  +on_schema_change: "sync_all_columns"
   gmjf:
     +database: ANALYTICS
     stage:
-      +materialized: view
+      +materialized: table
       +enabled: true
     intermediate:      
       +materialized: view
