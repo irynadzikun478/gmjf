@@ -6,3 +6,9 @@ models:
       - name: country
       - name: city
       - name: created_at
+  - name: stg_dataverse__donnor_commitments
+    columns:
+      - name: account_id
+      - name: country
+      - name: city
+      - name: created_at    

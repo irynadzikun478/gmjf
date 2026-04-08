@@ -11,7 +11,8 @@ renamed as (
     select
         "accountid" as account_id,
         "address1_country" as country,
-        "address1_city" as city
+        "address1_city" as city,
+        "createdon" as created_at
     from source
 
 )

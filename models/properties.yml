@@ -10,3 +10,7 @@ sources:
         - name: address1_country
         - name: address1_city    
         - name: createdon
+      - name: MSNFP_DONORCOMMITMENTS
+        columns:  
+        - name: jfna_commitdate
+  

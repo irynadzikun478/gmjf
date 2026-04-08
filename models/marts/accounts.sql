@@ -10,8 +10,9 @@ transformed as (
 
     select
         account_id,
-        CONCAT(country,'_', city ) as geo_location,
-        DATEDIFF(day, created_at, CURRENT_DATE) AS days_since_created_date
+        -- LOWER(CONCAT(country,'_', city)) as geo_location,
+        UPPER(CONCAT(country,'_', city)) as geo_location,
+        DATEDIFF(days, created_at, CURRENT_DATE) AS days_since_created_date
     from source_accounts
 
 )
